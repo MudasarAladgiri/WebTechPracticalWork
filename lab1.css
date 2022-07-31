@@ -1,0 +1,60 @@
+#logo{
+    background-color: grey;
+    padding:3rem;
+    border-radius: 4rem;
+    width:25px;
+    margin:25px 0px 15px 12px;
+}
+.nav{
+    background-color: black;
+    padding:2rem;
+    border-radius: 1rem;
+    text-align: end;
+}
+   
+
+nav>a{
+    color: white;
+    text-decoration: none;
+    margin-left: 3rem;
+    font-size: 1.3rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.para{
+   text-align: center;
+}
+h1{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+p{
+    margin:0rem 10rem 3rem 10rem;
+    text-align: justify;
+    text-align-last: start;
+}
+.box1{
+    float: left;
+    background-color: grey;
+    width:45%;
+    margin-left: 30px;
+    height:39vh;
+    border-radius: 1rem;
+}
+.box2{
+    float: right;
+    background-color: grey;
+    width:45%;
+    margin-right: 30px;
+    height:39vh;
+    border-radius: 1rem;
+
+
+}
+.box1>h3{
+    text-align: end;
+    padding-top: 16rem;
+}
+.box2>h3{
+    text-align: end;
+    padding-top: 16rem;
+}
