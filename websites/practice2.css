@@ -1,0 +1,122 @@
+body{
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient(#eeaeca, #94bbe9);
+}
+#logo{
+    background-color: black;
+    color: white;
+    width:25px;
+    margin:20px;
+    padding:2rem;
+    border-radius: 4rem;
+    border:solid white;
+    border-style:dashed;
+}
+.main{
+    background-color: black;
+    padding: 1px;
+    border-radius: 2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav>ul{
+   display:flex;
+   flex-direction: row;
+}
+nav a{
+ color:white;
+ text-decoration: none;
+}
+a:hover{
+   color:#94bbe9;
+}
+.log{
+    margin-left: auto;
+    margin-right:2rem;
+}
+.ref{
+   margin-left:36px;
+}
+h1{
+   display: flex;
+   justify-content: center;
+}
+.para{
+    margin:2rem 3rem 2rem 3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+}
+/* .imagecontainer{
+    
+} */
+.img1{
+    width:25%;
+    border-radius: 2rem;
+}
+.img2{
+    width:25%;
+    height:35vh;
+    border-radius: 2rem;
+}
+.imgcontainer{
+    display:flex;
+    justify-content: space-around;
+}
+@media screen and (max-width:680px){
+    .imgcontainer{
+        flex-direction: column;
+        align-items:center;
+        
+    }
+    .img1{
+        width:50%;
+        border-radius:2rem;
+        margin-bottom: 2rem;
+    }
+    .img2{
+        width:50%;
+        border-radius: 2rem;
+    }
+    .para{
+        display:flex;
+        justify-content:center;
+    }
+    nav>ul{
+        flex-direction: column;
+    }
+    .log{
+        margin-left:2rem;
+    }
+    .ref{
+        margin-left: 2rem;
+    }
+}
+@media screen and (min-width:700px)and (max-width:1023px){
+    .imgcontainer{
+        flex-direction: row;
+        align-items:center;
+        
+    }
+    .img1{
+        width:50%;
+        border-radius:2rem;
+        margin: 1rem;
+    }
+    .img2{
+        width:50%;
+        border-radius: 2rem;
+        margin:1rem;
+    }
+    .para{
+        display:flex;
+        justify-content:center;
+    }
+    nav>ul{
+        flex-direction: column;
+    }
+    .ref:nth-child(CONTACT){
+        margin-left: 2rem;
+    }
+}
+
+
+
