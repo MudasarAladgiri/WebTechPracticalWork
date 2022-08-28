@@ -1,0 +1,260 @@
+
+body{
+    margin:0;
+}
+.header1{
+    padding-bottom:5%;
+    background-color:hsl(120, 73%, 75%);
+}
+nav{
+    display: flex;
+    justify-content: end;
+    gap:50px;
+    margin:-50px 0 0 0;
+}
+
+nav a:any-link{
+    text-decoration: none;
+    color:black;
+}
+nav a:hover{
+   color: blue;
+}
+
+/* button */
+.fa-forward:hover::after{
+  content:   "        <<next stories";
+  font-size:10px;
+  color: black;
+  border-radius: 20%;
+}
+.fa-backward:hover::after{
+    content:   "       <<privious stories";
+    font-size:10px;
+    color: black;
+    border-radius: 20%;
+  }
+  .fa-shuffle:hover::after{
+    content:   "        <<shuffle stories";
+    font-size:10px;
+    color: black;
+    border-radius: 20%;
+  }
+/* CONTENT */
+.info{
+   margin-top:150px;
+   margin-left:90px;
+}
+.section a{
+    font-size: 70px;
+    text-decoration: none;
+    color:black;
+}
+.section p:hover{
+    text-decoration: underline;
+}
+.section h1:hover{
+    text-decoration: underline;
+}
+
+/* IMAGES */
+.img1{
+    width:400px;
+    height: 400px;
+    background-image: url(somo.png);
+    margin:-25% 0 0 60%;
+    transform: rotate(25deg);
+    animation-name:back;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.img2{
+    width:400px;
+    height: 400px;
+    background-image:url(map.png);
+    margin:-30% 0 0 60%;
+    transform: rotate(-45deg);
+    animation-name:back;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.img3{
+    width:400px;
+    height: 400px;
+    background-image:url(avtar.png);
+    margin:-30% 0 0 60%;
+    transform: rotate(-15deg);
+    animation-name:back;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes back{
+    25% {transform: rotate(45deg);}
+    50%{transform: rotate(90deg);}
+    75%{transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+}
+.header1{
+    animation-name:background;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes background{
+    0%{background-color: lightgreen;}
+    25%{background-color: yellow;}
+    50%{background-color: red;}
+    100%{background-color: lightcoral;}
+}
+.scroll{
+    margin-left: 80%;
+    margin-top: 10%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+/* Next Section  */
+.header2{
+    background-color:white;
+    padding-bottom: 10%;
+}
+.head{
+    margin-left: 20px;;
+    font-size:30px;
+}
+.container{
+ margin-left:3%;
+}
+.container2{
+    margin-left:370px;  
+    margin-top:-520px;
+}
+.container3{
+    margin-left:695px;  
+    margin-top:-515px;
+}
+.container4{
+    margin-left:75%;  
+    margin-top:-420px;;
+}
+.container a:first-child{
+    border:10px solid black;
+    background-color: black;
+    color:white;
+}
+.container a:nth-child(2){
+    border:10px solid green;
+    background-color: green;
+    color:white;
+}
+.container a:nth-child(3){
+    border:10px solid green;
+    background-color: green;
+    color:white;
+}
+.container p:nth-child(3){
+    font-size:20px;
+    font-weight: bolder;
+}
+.container p:last-child{
+    font-weight: bold;
+}
+/* cotainer2 */
+.container2 a:first-child{
+    border:10px solid black;
+    background-color: black;
+    color:white;
+}
+.container2 a:nth-child(2){
+    border:10px solid green;
+    background-color: green;
+    color:white;
+}
+.container2 a:nth-child(3){
+    border:10px solid green;
+    background-color: green;
+    color:white;
+}
+.container2 a:last-child{
+    border:10px solid green;
+    background-color: green;
+    color:white;
+}
+.container2 p:nth-child(3){
+    font-size:20px;
+    font-weight: bolder;
+}
+.container2 p:last-child{
+    font-weight: bold;
+}
+/* container3 */
+.container3 a:first-child{
+    border:10px solid pink;
+    background-color: pink;
+    color:black;
+}
+.container3 p:nth-child(3){
+    font-size:20px;
+    font-weight: bolder;
+}
+.container3 p:last-child{
+    font-weight: bold;
+}
+/* container4 */
+.container4 a:first-child{
+    border:10px solid purple;
+    background-color: purple;
+    color:white;
+}
+.container4 p:nth-child(3){
+    font-size:20px;
+    font-weight: bolder;
+}
+.container4 p:last-child{
+    font-weight: bold;
+}
+.container img:hover{
+    transform: rotate(10deg);
+    transition-duration: 3s;
+}
+.container2 img:hover{
+    transform: rotate(10deg);
+    transition-duration: 3s;
+}
+.container3 img:hover{
+    transform: rotate(10deg);
+    transition-duration: 3s;
+}
+.container4 img:hover{
+    transform: rotate(10deg);
+    transition-duration: 3s;
+}
+
+/* header3 */
+.header3{
+    background-color: black;
+    padding-top: 5%;
+    padding-bottom:20%;
+}
+.log h1{
+    color:white;
+    margin-left:5%;
+    font-weight: bolder;
+    font-size: 50px;
+}
+form{
+    margin-left:50%;
+    margin-top:20%;
+}
+input{
+    width:90%;
+    background-color: black;
+    border-top-color: transparent;
+    border-left-color:transparent ;
+    border-right-color:transparent;
+    font-size: 30px;
+    color:white;
+}
+button{
+    background-color: black;
+    border-color: transparent;
+    color: white;
+}
